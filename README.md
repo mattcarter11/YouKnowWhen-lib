@@ -19,3 +19,6 @@ The libraries launch, olink, rng are based on Cloud Wolf implementations and the
 # Other usefull libs
 
  - [mrcd](https://github.com/K-bai/Minecraft-Ray-Collision-Detector) Super precise raycast system in vanilla minecraft with minimal command cost.
+ - [AESTD](https://github.com/Aeldrion/AESTD) tility data pack for Minecraft designed to help command learners and advanced command.
+ - [Score-Based-Damage](https://github.com/ErrorCraft/Score-Based-Damage) This is a data pack that allows you to damage and heal players based on a score.
+ - [Minecraft-Random](https://github.com/Aeldrion/Minecraft-Random) Adds functions for random number generation and randomness-based predicates.
