@@ -1,0 +1,17 @@
+attribute @s generic.max_health modifier remove ae57d-16cf-4a8f-91ea-851911cbfab8
+attribute @s generic.max_health modifier remove ae57d-abc0-4f76-8c7b-11e8f465bc64
+attribute @s generic.max_health modifier remove ae57d-b4a6-4204-81e4-8e3cc12cbb52
+attribute @s generic.max_health modifier remove ae57d-433a-450e-ba8a-f2f42507b38c
+attribute @s generic.max_health modifier remove ae57d-8a81-4ef2-9657-f4ae3a6b8528
+attribute @s generic.max_health modifier remove ae57d-ab36-4948-ba90-0b608ad13bf1
+attribute @s generic.max_health modifier remove ae57d-8348-4dc7-9a00-1018912f5604
+attribute @s generic.max_health modifier remove ae57d-7558-4a02-b42b-4058d4f0104e
+attribute @s generic.max_health modifier remove ae57d-4178-4a83-93b8-27c0c8c45df7
+attribute @s generic.max_health modifier remove ae57d-094d-4d12-8599-e17a20764107
+attribute @s generic.max_health modifier remove ae57d-5797-4f97-ab9c-05ed603c1ee2
+attribute @s generic.max_health modifier remove ae57d-d705-46f8-bc0f-a51915e784f5
+attribute @s generic.max_health modifier remove ae57d-e61c-4084-8daa-8bc90352b19e
+attribute @s generic.max_health modifier remove ae57d-d437-4fae-83bd-7c87ae2a6f3f
+attribute @s generic.max_health modifier remove ae57d-bf39-4001-b5ad-445ce2d5bf62
+attribute @s generic.max_health modifier remove ae57d-975b-4735-81ff-93f96ed9f091
+attribute @s generic.max_health modifier remove ae57d-e5cd-4a7d-8c64-05fa7aecf0eb

@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "damage:private/tick",
+    "countdown:private/tick",
+    "mdd:private/tick"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "damage:private/load",
+    "rng:private/load",
+    "olink:private/load",
+    "attribute:private/load",
+    "countdown:private/load",
+    "launch:private/load"
+  ]
+}

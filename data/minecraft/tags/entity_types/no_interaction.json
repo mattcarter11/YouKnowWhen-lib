@@ -1,0 +1,19 @@
+{
+  "values": [
+    "#minecraft:projectile",
+    "minecraft:painting",
+    "minecraft:arrow",
+    "minecraft:armor_stand",
+    "minecraft:item_frame",
+    "minecraft:experience_orb",
+    "minecraft:area_effect_cloud",
+    "minecraft:item",
+    "minecraft:minecart",
+    "minecraft:hopper_minecart",
+    "minecraft:furnace_minecart",
+    "minecraft:chest_minecart",
+    "minecraft:command_block_minecart",
+    "minecraft:falling_block",
+    "minecraft:marker"
+  ]
+}

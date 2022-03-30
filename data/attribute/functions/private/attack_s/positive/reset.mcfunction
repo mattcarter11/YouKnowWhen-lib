@@ -1,0 +1,17 @@
+attribute @s generic.attack_speed modifier remove 65536-0-0-0-0
+attribute @s generic.attack_speed modifier remove 32768-0-0-0-0
+attribute @s generic.attack_speed modifier remove 16384-0-0-0-0
+attribute @s generic.attack_speed modifier remove 8192-0-0-0-0
+attribute @s generic.attack_speed modifier remove 4096-0-0-0-0
+attribute @s generic.attack_speed modifier remove 2048-0-0-0-0
+attribute @s generic.attack_speed modifier remove 1024-0-0-0-0
+attribute @s generic.attack_speed modifier remove 512-0-0-0-0
+attribute @s generic.attack_speed modifier remove 256-0-0-0-0
+attribute @s generic.attack_speed modifier remove 128-0-0-0-0
+attribute @s generic.attack_speed modifier remove 64-0-0-0-0
+attribute @s generic.attack_speed modifier remove 32-0-0-0-0
+attribute @s generic.attack_speed modifier remove 16-0-0-0-0
+attribute @s generic.attack_speed modifier remove 8-0-0-0-0
+attribute @s generic.attack_speed modifier remove 4-0-0-0-0
+attribute @s generic.attack_speed modifier remove 2-0-0-0-0
+attribute @s generic.attack_speed modifier remove 1-0-0-0-0
