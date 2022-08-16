@@ -32,7 +32,7 @@ If we previously called the function new_link/find_linked/count_linkedsets the `
 
 A better and more efficient way and to do it is to use the following on line equivalent
 
-    scoreboard players operation @<*> ch<X>_olink__id = @<l> ch<X>_olink
+    scoreboard players operation @<*> ch<X>_olink = @<l> ch<X>_olink
 
 ## Exit a link
 
