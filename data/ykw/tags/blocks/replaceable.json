@@ -54,7 +54,8 @@
     "minecraft:warped_roots",
     "minecraft:crimson_roots",
 
-    "#minecraft:carpets",
+    "#minecraft:wool_carpets",
+    "moss_carpet",
     "#minecraft:rails",
     "minecraft:glow_lichen",
     "minecraft:vine",

@@ -1,6 +1,3 @@
-# Reset
-scoreboard players set .count ch2_olink 0
-tag @e[tag=ch2_olinked] remove ch2_olinked
 # Store link id
 scoreboard players operation .id ch2_olink = @s ch2_olink
 # Scoreboard and count

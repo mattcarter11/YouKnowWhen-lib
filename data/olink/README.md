@@ -44,6 +44,14 @@ Or run the command:
 
     scoreboard players reset @s ch1_olink
 
+## Crosslinking entities
+
+Crosslinking is usefull to having tree structures (parent -> child/parent -> child -> ...). To do this we'll use the fisrt channel for the parent ids and the second for the child. To do thisWe first set the `.id` of the parent link and then running the function `olink:ch<X>/join_link` as all child entities that must be crosslinked. 
+
+    scoreboard players operation .id ch<X>_olink = @<l> ch<Y>_olink
+    execute as @<*> run function function olink:ch<X>/join_link
+
+*Ex: A parent has 301 ch1 score and their children have 301 ch2 score*
 
 # Interacting with links
 
@@ -75,6 +83,14 @@ To check if an entity is in a link, you can use the predicate `olink:ch<x>/in_li
     execute if predicate olink:ch<x>/in_link run <...>
 
 You could also use the `olink:ch<X>/find_linked` or `olink:ch<X>/count_linked` functions, but it would be less efficient.
+
+## Crosslinking entities
+
+To get all crosslinked, we need to run the function `olink:ch<X>/find_crosslinked_ch<Y>` as one of the entities inside the link. All the entities in the `@s` link will get the tag `ch<X>_linked_ch<Y>` and all previous `ch<X>_linked_ch<Y>` tagged entityes will lose the tag.
+    
+    function olink:ch<X>/find_crosslinked_ch<Y>
+    execute as @<*>[tag=ch<X>_elinked_ch<2>]
+
 
 # Legend
   - `@<l>`: entity with/in a link

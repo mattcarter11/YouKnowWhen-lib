@@ -1,5 +1,3 @@
-# Reset
-scoreboard players set .count ch2_olink 0
 # Get id
 scoreboard players operation .id ch2_olink = @s ch2_olink
 # Count
