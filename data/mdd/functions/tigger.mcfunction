@@ -2,4 +2,4 @@
 
 function game:mob_death
 function items:mob_death/main
-function 0_enemy_boss:mob_death/main
+execute if predicate enemies_py:death_trigger/is_trigger run function 0_enemy_boss:on_death/trigger

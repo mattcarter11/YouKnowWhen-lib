@@ -1,0 +1,17 @@
+{
+	"values": [
+		"#minecraft:buttons",
+		"#minecraft:fire",
+		"#minecraft:flowers",
+		"#minecraft:portals",
+		"#minecraft:signs",
+		"#minecraft:tall_flowers",
+		"#minecraft:wall_signs",
+		"minecraft:air",
+		"minecraft:cave_air",
+		"minecraft:lava",
+		"minecraft:structure_void",
+		"minecraft:void_air",
+		"minecraft:water"
+	]
+}

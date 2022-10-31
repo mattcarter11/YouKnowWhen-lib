@@ -6,6 +6,7 @@
     "olink:private/load",
     "attribute:private/load",
     "countdown:private/load",
-    "launch:private/load"
+    "launch:private/load",
+    "ebackoff:private/load"
   ]
 }

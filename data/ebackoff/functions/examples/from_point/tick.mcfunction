@@ -1,0 +1,1 @@
+execute as @e[type=!player] at @s if entity @e[type=marker,tag=world_center,distance=..5,limit=1] run function ebackoff:examples/from_point/run_away
