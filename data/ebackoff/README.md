@@ -76,5 +76,5 @@ Let's make pillagers a bit harder by having them backoff from the player if they
 # Other
 This lib is a modified version of the  back_off function of FlanDere Pillager Tweaks https://www.planetminecraft.com/data-pack/pillager-tweaks/
 
-**IMPORTNAT**: Apart from the *eback_off* folder you also need *minercaft* for loading the function `launch:private/load`. You could also load it manually.
+**IMPORTNAT**: Apart from the *ebackoff* folder you also need *minercaft* for loading the function `ebackoff:private/load`. You could also load it manually.
 
