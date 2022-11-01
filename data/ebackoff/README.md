@@ -1,5 +1,5 @@
 # Summary
-A library for making entities run away (backoff) from a target (a.k. point in space) in the XZ axes without falling off edges (not 100% of the times).
+A library for making entities (except players) backoff/run away from a target (a.k. point in space) in the XZ axes without falling off edges (not 100% of the times).
 
 # Backing Off
 
@@ -74,7 +74,7 @@ Let's make pillagers a bit harder by having them backoff from the player if they
 *You can find this examples under the `eblackoff:examples` folder*
 
 # Other
-This lib is a modified version of the  back_off function of FlanDere Pillager Tweaks https://www.planetminecraft.com/data-pack/pillager-tweaks/
+This lib is a modified version of the back_off function of FlanDere Pillager Tweaks https://www.planetminecraft.com/data-pack/pillager-tweaks/
 
 **IMPORTNAT**: Apart from the *ebackoff* folder you also need *minercaft* for loading the function `ebackoff:private/load`. You could also load it manually.
 

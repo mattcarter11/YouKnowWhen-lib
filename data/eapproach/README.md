@@ -1,5 +1,5 @@
 # Summary
-A library for making entities approach a target (a.k. point in space) in the XZ axes without falling off edges (not 100% of the times).
+A library for making entities (except players) approach a target (a.k. point in space) in the XZ axes without falling off edges (not 100% of the times).
 
 # Approaching
 This library simply inverts the funcitonality of the *ebackoff* library. So all the explanations in [ebackoff README](https://github.com/mattcarter11/YouKnowWhen-lib/tree/main/data/ebackoff)
