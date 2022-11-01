@@ -13,7 +13,7 @@ A datapack with a bunch of libraries/tools for standarizing basic functionalitie
  - [launch](https://github.com/mattcarter11/YouKnowWhen-lib/tree/main/data/launch) A library for launching/throwing entities arround based on a vector.
 *This libs don't work on players*
 
-## Entity attriute libs
+## Entity attribute libs
  - [attribute](https://github.com/mattcarter11/YouKnowWhen-lib/tree/main/data/attribute) Set any entity attributes using scoreboards.
  - [damage](https://github.com/mattcarter11/YouKnowWhen-lib/tree/main/data/damage) A library to apply custom damage to entities.
     - By default takes into account: *damage reduction of armor, armor_toughness and resistance effect, game difficulty*
