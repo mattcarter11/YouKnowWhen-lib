@@ -7,6 +7,7 @@
     "attribute:private/load",
     "countdown:private/load",
     "launch:private/load",
-    "ebackoff:private/load"
+    "ebackoff:private/load",
+    "eapproach:private/load"
   ]
 }
