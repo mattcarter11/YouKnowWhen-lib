@@ -20,9 +20,11 @@ scoreboard players operation #dz ebackoff *= factor ebackoff
 scoreboard players set factor ebackoff 100
 
 # Set motion
-function ebackoff:private/check_if_falling
+execute if score entity_shifts ebackoff matches 0 run function ebackoff:private/ignore_falling
+execute if score entity_shifts ebackoff matches 1 run function ebackoff:private/check_if_falling
 execute if score #xsolid ebackoff matches 1 store result entity @s Motion[0] double -0.00001 run scoreboard players get #dx ebackoff
 execute if score #ysolid ebackoff matches 1 store result entity @s Motion[2] double -0.00001 run scoreboard players get #dz ebackoff
+scoreboard players set entity_shifts ebackoff 1
 
 # Facing target
 execute if score facing_target ebackoff matches 1 run data modify entity @s Rotation[0] set from entity @e[type=area_effect_cloud,tag=align,limit=1,sort=nearest] Rotation[0]

@@ -1,5 +1,5 @@
 # Summary
-A library for making entities (except players) backoff/run away from a target (a.k. point in space) in the XZ axes without falling off edges (not 100% of the times).
+A library for making entities (except players) backoff/run away from a target (a.k. point in space) in the XZ axes.
 
 # Backing Off
 
@@ -29,6 +29,11 @@ Since usually we need to make entityes backoff from the nearest player, there's 
 The score `factor` is used to determine the backoff velocity, the value must be scaled by 100 *(x1.5 times -> 150)*. Each time the `ebackoff:from_<..>` function is called, the factor is reset to 100. 
 
     scoreboard players set factor ebackoff 150
+
+## Fall off blocks
+
+The score `entity_shifts` is used as a flag to determine if the entity stops moving when approaching the edge of a block, 0: no, 1: yes. (Doesn't work 100% of the times)
+If not indicate, this flag is always active (1) when calling the `ebackoff` functions.
 
 
 # Legend
