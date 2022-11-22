@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:6001,death_mark:1b}"
+              "tag": "{CustomModelData:6001,death_mark:1b,PickupDelay:32767}"
             },
             {
               "function": "minecraft:copy_nbt",
