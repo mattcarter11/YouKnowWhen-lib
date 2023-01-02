@@ -8,6 +8,7 @@
     "countdown:private/load",
     "launch:private/load",
     "ebackoff:private/load",
-    "eapproach:private/load"
+    "eapproach:private/load",
+    "const:private/load"
   ]
 }
