@@ -23,16 +23,16 @@ Every tick, all the added damage is applyed to `@s`.
 
 ## Flags
 
-By default armor, armor_toughness and resistance effect damage reduction is on. To ignore this reductions, two flags can be set.
+When it applyes all the damage added up in that tick, by default armor, armor_toughness and resistance effect damage reduction is on. To ignore this reductions, two flags can be set.
 
-    scoreboard players set ignore_armor damage 1
-    scoreboard players set ignore_resistance damage 1
+    scoreboard players set ignore_armor damage_custom 1
+    scoreboard players set ignore_resistance damage_custom 1
 
 It also takes into account the game difficulty. The flag that controls this is.
 
-    scoreboard players set ignore_difficulty damage 1
+    scoreboard players set ignore_difficulty damage_custom 1
 
-*NOTE: This flags are configured at initzalitzation of the datapack, at 'damage:load'. This flags are applyed to all the damage added each tick.*
+*NOTE: This flags are configured at initzalitzation of the datapack, at 'damage:load'.*
 
 # Specific damage
 
