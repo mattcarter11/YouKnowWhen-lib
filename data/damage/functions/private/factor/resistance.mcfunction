@@ -1,5 +1,5 @@
 # Get resistance level
-execute store result score #lvl damage run data get entity @s ActiveEffects[{Id:11b}].Amplifier
+execute store result score #lvl damage run data get entity @s ActiveEffects[{Id:11}].Amplifier
 scoreboard players add #lvl damage 1
 execute if score #lvl damage matches 6.. run scoreboard players set #lvl damage 5
 
