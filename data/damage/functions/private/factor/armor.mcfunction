@@ -37,4 +37,4 @@ scoreboard players operation #amount damage *= #recieved damage
 scoreboard players set #tmp damage 100
 scoreboard players operation #amount damage /= #tmp damage
 
-# tellraw @s ["Armor factor  ->  protected: ",{"score":{"name":"#min","objective":"damage"}},"%  recieved: ",{"score":{"name":"#recieved","objective":"damage"}},"%  damage: ",{"score":{"name":"@s","objective":"damage"}}]
+# tellraw @s ["Armor factor  ->  protected: ",{"score":{"name":"#min","objective":"damage"}},"%  recieved: ",{"score":{"name":"#recieved","objective":"damage"}},"%  damage: ",{"score":{"name":"#amount","objective":"damage"}}]

@@ -14,4 +14,4 @@ scoreboard players operation #amount damage *= #recieved damage
 scoreboard players set #tmp damage 100
 scoreboard players operation #amount damage /= #tmp damage
 
-# tellraw @s ["Resistance factor -> resisted: ",{"score":{"name":"#lvl","objective":"damage"}},"%  recieved: ",{"score":{"name":"#recieved","objective":"damage"}},"&  damage: ",{"score":{"name":"@s","objective":"damage"}}]
+# tellraw @s ["Resistance factor -> resisted: ",{"score":{"name":"#lvl","objective":"damage"}},"%  recieved: ",{"score":{"name":"#recieved","objective":"damage"}},"&  damage: ",{"score":{"name":"#amount","objective":"damage"}}]

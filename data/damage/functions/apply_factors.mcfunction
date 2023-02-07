@@ -4,6 +4,8 @@ execute if score ignore_armor damage_custom matches 0 run function damage:privat
 execute if score ignore_resistance damage_custom matches 0 if predicate damage:has_resistance run function damage:private/factor/resistance
 scoreboard players operation @s damage_custom += #amount damage
 
+# tellraw @a ["Final  ->  Amount: ",{"score":{"name":"amount","objective":"damage_custom"}}," @s: ",{"score":{"name":"@s","objective":"damage_custom"}}]
+
 # Set score so the tick knows to apply damage
 scoreboard players add @s damage 0
 
