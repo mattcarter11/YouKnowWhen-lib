@@ -14,6 +14,9 @@
     "minecraft:chest_minecart",
     "minecraft:command_block_minecart",
     "minecraft:falling_block",
-    "minecraft:marker"
+    "minecraft:marker",
+    "minecraft:item_display",
+    "minecraft:block_display",
+    "minecraft:interaction"
   ]
 }
