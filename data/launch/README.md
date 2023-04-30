@@ -29,9 +29,9 @@ To throw an entity facing another entity you firs need to tag the entity with `l
     tag @e[limit=1] add launch_mark
     execute as @s at @s run function launch:towards_marked_entity
 
-Another option, which gives more controll to tweack the XY rotations is to run the following command (the command is runned fom the entity eyes).
+Another option, which gives more controll to tweak the XY rotations is to run the forward command facing the entity with rotation.
 
-    execute as @s at @s anchored eyes facing entity @e[limit=1] feet run tp @s ~ ~ ~ ~ -5
+    execute as @s at @s facing entity @e[limit=1] feet rotated ~ -5 run function launch:towards_marked_entity
 
 # Throw towards an entity and reach it
 
