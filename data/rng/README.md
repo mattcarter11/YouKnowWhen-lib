@@ -44,9 +44,9 @@ If you whant to run multiple functions, you'll need to store the resut in a temp
 
 ## Generate a new rng seed
 
-The function `rng:reset_seed` generates a new seed. Each time the game loads, the seed is reset
+The function `rng:uuid_reset` generates a new seed. Each time the game loads, the seed is reset
 
-    function rng:reset_seed
+    function rng:uuid_reset
 
 
 # Examples

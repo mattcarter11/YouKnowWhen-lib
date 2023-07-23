@@ -10,7 +10,7 @@ The vector is 0.1 blocks in module by default. By setting the score `factor` the
     scoreboard players set factor launch 15
     execute as @s at @s run function launch:forward
 
-Usually, entities are facing a target or the traight ahead, which makes the Y rotation (pitch) arround 0. This will cause the entity to have a lot of grag when being launched, thus not getting very far. By simply adding some degrees, this can be avoided.
+Usually, entities are facing a target or the traight ahead, which makes the Y rotation (pitch) arround 0. This will cause the entity to have a lot of drag when being launched, thus not getting very far. By simply adding some degrees, this can be avoided.
 
     tp @s ~ ~ ~ ~ -5
     scoreboard players set factor launch 15
