@@ -17,6 +17,7 @@
     "minecraft:potion",
     "minecraft:small_fireball",
     "minecraft:snowball",
-    "minecraft:wind_charge"
+    "minecraft:wind_charge",
+    "minecraft:breeze_wind_charge"
   ]
 }

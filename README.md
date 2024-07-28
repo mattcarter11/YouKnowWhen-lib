@@ -1,5 +1,7 @@
 # Summary
 
+Version: 1.21
+
 A datapack with a bunch of libraries/tools for standarizing basic functionalities a code/map maker can use. Inside each subforder you can find a README with intstructions on how to use them. These libraries are:
 
 ## Numeric libs
