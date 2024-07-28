@@ -14,6 +14,7 @@ execute store result score #health damage run data get entity @s Health 100
 scoreboard players operation #health damage -= @s damage
 execute if score #health damage matches ..100 run kill @s
 execute if score #health damage matches 100.. run function damage:private/1_reduce_health
+# tellraw @a {"score":{"name":"#health","objective":"damage"}}
 
 # HP particle
 execute if score @s damage matches 200.. run function damage:private/hp_particle/main

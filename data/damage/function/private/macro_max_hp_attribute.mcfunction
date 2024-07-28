@@ -1,0 +1,1 @@
+$attribute @s generic.max_health modifier add damage.max_hp $(value) add_value

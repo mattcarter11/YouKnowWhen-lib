@@ -5,31 +5,17 @@ scoreboard players operation #max_hp_reduction damage -= #health damage
 # tellraw @a {"score":{"name":"#max_hp_reduction","objective":"damage"}}
 
 # Reduce maximum health with binary increments
-execute if score #max_hp_reduction damage matches 65536.. run function damage:private/attributes/65536
-execute if score #max_hp_reduction damage matches 32768.. run function damage:private/attributes/32768
-execute if score #max_hp_reduction damage matches 16384.. run function damage:private/attributes/16384
-execute if score #max_hp_reduction damage matches 8192.. run function damage:private/attributes/8192
-execute if score #max_hp_reduction damage matches 4096.. run function damage:private/attributes/4096
-execute if score #max_hp_reduction damage matches 2048.. run function damage:private/attributes/2048
-execute if score #max_hp_reduction damage matches 1024.. run function damage:private/attributes/1024
-execute if score #max_hp_reduction damage matches 512.. run function damage:private/attributes/512
-execute if score #max_hp_reduction damage matches 256.. run function damage:private/attributes/256
-execute if score #max_hp_reduction damage matches 128.. run function damage:private/attributes/128
-execute if score #max_hp_reduction damage matches 64.. run function damage:private/attributes/64
-execute if score #max_hp_reduction damage matches 32.. run function damage:private/attributes/32
-execute if score #max_hp_reduction damage matches 16.. run function damage:private/attributes/16
-execute if score #max_hp_reduction damage matches 8.. run function damage:private/attributes/8
-execute if score #max_hp_reduction damage matches 4.. run function damage:private/attributes/4
-execute if score #max_hp_reduction damage matches 2.. run function damage:private/attributes/2
-execute if score #max_hp_reduction damage matches 1.. run function damage:private/attributes/1
+execute store result storage damage value int -0.01 run scoreboard players get #max_hp_reduction damage
+function damage:private/macro_max_hp_attribute with storage damage
 
 # Update health to new max health
 effect give @s health_boost 1 0
 effect clear @s health_boost
 
 # Damage animate
-execute if entity @s[type=!player] run function damage:private/animate/mob
-execute if entity @s[type=player] run function damage:private/animate/player
+execute if entity @s[type=!#undead,type=!player] run effect give @s instant_damage 1 31 true
+execute if entity @s[type=#undead,type=!player] run effect give @s instant_health 1 31 true
+execute if entity @s[type=player] run summon area_effect_cloud ~ ~ ~ {Radius:0f,Duration:6,Age:4,potion_contents:{custom_effects:[{id:"minecraft:wither",amplifier:5,duration:1,show_particles:0b},{id:"minecraft:resistance",amplifier:5,duration:1,show_particles:0b}]}}
 
 # Update health to real max health
-function damage:private/attributes/reset
+attribute @s generic.max_health modifier remove damage.max_hp

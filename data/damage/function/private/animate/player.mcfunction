@@ -1,1 +1,0 @@
-summon area_effect_cloud ~ ~ ~ {Radius:0f,Duration:6,Age:4,effects:[{id:"minecraft:wither",amplifier:5b,duration:1,show_particles:0b},{id:"minecraft:resistance",amplifier:5b,duration:1,show_particles:0b}]}
