@@ -14,10 +14,10 @@
 #        return r;
 #    }
 
-function rng:private/calc/lcg
+function rng:pre_1_20_2/private/calc/lcg
 
 scoreboard players operation #temp rng = out rng
 scoreboard players operation out rng %= #range rng
 scoreboard players operation #temp rng -= out rng
 scoreboard players operation #temp rng += #m1 rng
-execute if score #temp rng matches ..-1 run function rng:private/calc/range_lcg
+execute if score #temp rng matches ..-1 run function rng:pre_1_20_2/private/calc/range_lcg

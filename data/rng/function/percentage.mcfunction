@@ -1,4 +1,1 @@
-scoreboard players set min rng 1
-scoreboard players set max rng 100
-
-function rng:interval
+execute store result score out rng run random value 1..100

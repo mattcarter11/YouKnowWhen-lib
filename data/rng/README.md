@@ -1,12 +1,10 @@
 # Summary
 
-After 1.20.2 you should use `/random`.
-
 Generates a random value betwen `min` and `max` stored at `out`. Is expected that `min` <= `max`. The values stored in the `rng` scoreboard. 
 
 There's also an implementation for percentage rolls.
 
-# Usage
+# Usage pre 1.20.2
 ## Basic
 
 To generate a value betwen `min` and `max` you first set the range.
@@ -20,7 +18,13 @@ And then run the `rng:interval` function.
 
 ## Percentage
 
-There are two ways to do a percentage execution, using a fucntion or a predicate, the second being more efficient.
+There are three ways to do a percentage execution, using a fucntion or a predicate, the second being more efficient.
+
+### Command 
+
+Directly run the adequate command and then check the `out` value.
+
+    execute store result score out rng run random value 1..100
 
 ### Function
 
@@ -44,7 +48,7 @@ If you whant to run multiple functions, you'll need to store the resut in a temp
     execute if score #%pass rng matches 1 run <...>
     execute if score #%pass rng matches 1 run <...>
 
-## Generate a new rng seed
+## Pre 1.20.2 - Generate a new rng seed
 
 The function `rng:reset_seed` generates a new seed. Each time the game loads, the seed is reset
 
