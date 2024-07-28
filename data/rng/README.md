@@ -1,5 +1,7 @@
 # Summary
 
+After 1.20.2 you should use `/random`.
+
 Generates a random value betwen `min` and `max` stored at `out`. Is expected that `min` <= `max`. The values stored in the `rng` scoreboard. 
 
 There's also an implementation for percentage rolls.
@@ -44,9 +46,9 @@ If you whant to run multiple functions, you'll need to store the resut in a temp
 
 ## Generate a new rng seed
 
-The function `rng:uuid_reset` generates a new seed. Each time the game loads, the seed is reset
+The function `rng:reset_seed` generates a new seed. Each time the game loads, the seed is reset
 
-    function rng:uuid_reset
+    function rng:reset_seed
 
 
 # Examples

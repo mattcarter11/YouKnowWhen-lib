@@ -4,7 +4,7 @@ A datapack with a bunch of libraries/tools for standarizing basic functionalitie
 
 ## Numeric libs
  - [countdown](https://github.com/mattcarter11/YouKnowWhen-lib/tree/main/data/countdown) Have up to two score based countdowns for each entity.
- - [rng](https://github.com/mattcarter11/YouKnowWhen-lib/tree/main/data/rng) Generates a random value betwen a min and max range.
+ - [rng](https://github.com/mattcarter11/YouKnowWhen-lib/tree/main/data/rng) Generates a random value betwen a min and max range. After 1.20.2 you should use `/random`.
  - [elister](https://github.com/mattcarter11/YouKnowWhen-lib/tree/main/data/elister) List usually used entities when doing commands/map making.
  - [const](https://github.com/mattcarter11/YouKnowWhen-lib/tree/main/data/const) Loads some constant integer to the `const` scoreboard
 

@@ -1,0 +1,35 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:slime_ball",
+					"functions": [
+						{
+							"function": "minecraft:set_custom_model_data",
+							"value": 6001
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{death_mark:1b,PickupDelay:32767}"
+						},
+						{
+							"function": "minecraft:copy_custom_data",
+							"source": "this",
+							"ops": [
+								{
+									"source": "Tags",
+									"target": "Tags",
+									"op": "replace"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
