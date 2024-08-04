@@ -2,6 +2,8 @@
 	"condition": "minecraft:entity_properties",
 	"entity": "this",
 	"predicate": {
-		"nbt": "{IsBaby:1b}"
+		"flags": {
+			"is_baby": true
+		}
 	}
 }
