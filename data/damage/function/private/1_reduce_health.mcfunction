@@ -5,12 +5,14 @@ scoreboard players operation #max_hp_reduction damage -= #health damage
 # tellraw @a {"score":{"name":"#max_hp_reduction","objective":"damage"}}
 
 # Reduce maximum health with binary increments
-execute store result storage damage value int -0.01 run scoreboard players get #max_hp_reduction damage
+execute store result storage damage value float -0.01 run scoreboard players get #max_hp_reduction damage
 function damage:private/macro_max_hp_attribute with storage damage
 
 # Update health to new max health
 effect give @s health_boost 1 0
 effect clear @s health_boost
+
+# tellraw @a {"entity":"@s","nbt":"Health"}
 
 # Damage animate
 execute if entity @s[type=!#undead,type=!player] run effect give @s instant_damage 1 31 true

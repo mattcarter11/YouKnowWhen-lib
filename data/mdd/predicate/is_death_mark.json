@@ -2,6 +2,6 @@
 	"condition": "minecraft:entity_properties",
 	"entity": "this",
 	"predicate": {
-		"nbt": "{Item:{components:{ \"minecraft:custom_data\":{death_mark:1b}}}}"
+		"nbt": "{Item:{components:{\"minecraft:custom_data\":{death_mark:1b}}}}"
 	}
 }
