@@ -1,0 +1,46 @@
+{
+	"condition": "minecraft:any_of",
+	"terms": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"flags": {
+					"is_baby": true
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": [
+					"minecraft:cave_spider",
+					"minecraft:spider",
+					"minecraft:pufferfish",
+					"minecraft:axolotl",
+					"minecraft:allay",
+					"minecraft:armadillo",
+					"minecraft:bat",
+					"minecraft:bee",
+					"minecraft:cat",
+					"minecraft:chicken",
+					"minecraft:cod",
+					"minecraft:salmon",
+					"minecraft:tropical_fish",
+					"minecraft:enderman",
+					"minecraft:silverfish",
+					"minecraft:fox",
+					"minecraft:frog",
+					"minecraft:ocelot",
+					"minecraft:pig",
+					"minecraft:rabbit",
+					"minecraft:squid",
+					"minecraft:tadpole",
+					"minecraft:wolf",
+					"minecraft:vex"
+				]
+			}
+		}
+	]
+}
